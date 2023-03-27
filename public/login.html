@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ubuntu Sinabo</title>
+
+    <!-- FontAwesome Ions -->
+    <script src="https://kit.fontawesome.com/2ce5d3fbc2.js" crossorigin="anonymous"></script>
+
+    <!-- Main style sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="AboutPage" class="form-v6">
+    <header class="about-header">
+         <!-- mobile menu icon -->
+         <i class="fa-solid fa-bars about-mobile-menu" id="menu-icon"></i>
+
+         <!-- main navigation -->
+         <nav class="nav mobile-nav about-mobile-icon" id="mobile-nav">
+            <img src="/logo.png" alt="logo image" class="logo"> 
+            <div class="menu-items" id="menu-items">
+                <a href="/">Home</a>
+                <a href="/about">About</a>
+                <a href="/projects">Projects</a>
+                <a href="/login">
+                 Login
+                <i class="fa-solid fa-user login"></i> 
+               </a>
+ 
+                 <div class="socials nav-socials" >
+                     <i class="fa-brands fa-twitter">
+                         <a href="#"></a>
+                     </i>
+                     <i class="fa-brands fa-instagram">
+                         <a href="#"></a>
+                     </i>
+                     <i class="fa-brands fa-facebook">
+                         <a href="#"></a>
+                     </i>
+                     <i class="fa-brands fa-youtube">
+                         <a href="#"></a>
+                     </i>
+                 </div>
+             </div>
+         </nav>
+    </header>
+
+        <div class="page-content">
+
+            <div class="form-v6-content" id="create-account" style="display: none;">
+                <div class="form-left">
+                    <img src="/images/projectsImg/africanwoman3.jpg" alt="form">
+                </div>
+            
+                <form class="form-detail" action="#" method="post">
+                    <h2>Create Account</h2>
+
+                    <div class="form-row">
+                    <input type="text" name="full-name" id="full-name" class="input-text" placeholder="Your Name" required>
+                    </div>
+
+                    <div class="form-row">
+                    <input type="text" name="your-email" id="your-email" class="input-text" placeholder="Email Address" required pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
+                    </div>
+
+                    <div class="form-row">
+                    <input type="password" name="password" id="password" class="input-text" placeholder="Password" required>
+                    </div>
+
+                    <div class="form-row">
+                    <input type="password" name="confirm-password" id="comfirm-password" class="input-text" placeholder="Comfirm Password" required>
+                    </div>
+
+                    <div class="form-row-last">
+                    <input type="submit" name="register" class="register" value="Register">
+                    </div>
+
+                    <p class="registered"  id="show-login">
+                        Already have an account?
+                        <a href="#" id="show-login" class="registered"> Login</a>
+                    </p>
+                    
+                </form>
+        
+            </div>
+
+
+            <div class="form-v6-content" id="login-account" >
+                <div class="form-left">
+                    <img src="/images/projectsImg/africanwoman4.jpg" alt="form">
+                </div>
+            
+                <form class="form-detail">
+                    <h2>Login To Your Account</h2>
+
+    
+                    <div class="form-row">
+                    <input type="text" name="your-email" id="your-email2" class="input-text" placeholder="Email Address" required pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
+                    </div>
+    
+                    <div class="form-row">
+                    <input type="password" name="password" id="password2" class="input-text" placeholder="Password" required>
+                    </div>
+    
+                    <div class="form-row-last">
+                    <input type="submit" name="register" class="register" value="Login">
+                    </div>
+
+                    <p class="registered" id="show-create">Don't have an account yet?
+                        <a href="#" id="show-create" class="registered"> Sign Up</a>
+                    </p>
+
+                </form>
+                </div>
+        </div>
+
+
+    <footer class="about-footer" id="login-footer">
+        <p class="copyright">
+            &copy; 2023 by 
+            <span>Phiwe Mhlope</span> 
+            <a href="mailto:pmhlope@uri.edu"> pmhlope@uri.edu</a>
+        </p>
+        <div class="socials">
+            <i class="fa-brands fa-twitter">
+                <a href="#"></a>
+            </i>
+            <i class="fa-brands fa-instagram">
+                <a href="#"></a>
+            </i>
+            <i class="fa-brands fa-facebook">
+                <a href="#"></a>
+            </i>
+            <i class="fa-brands fa-youtube">
+                <a href="#"></a>
+            </i>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- <script src="scripts/signup.js"></script> -->
+    <script src="/script.js"></script>
+</body>
+</html>
